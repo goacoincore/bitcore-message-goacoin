@@ -1,0 +1,33 @@
+{
+  "name": "bitcore-message-goacoin",
+  "version": "1.0.9",
+  "description": "GoaCoin Messages for Bitcore-GoaCoin",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "goacoin",
+    "bitcore-goacoin",
+    "message",
+    "signing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goacoincore/bitcore-message-goacoin.git"
+  },
+  "dependencies": {
+    "bitcore-lib-goacoin": "goacoincore/bitcore-lib-goacoin"
+  },
+  "devDependencies": {
+    "bitcore-build-goacoin": "goacoincore/bitcore-build-goacoin",
+    "brfs": "^1.3.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "license": "MIT"
+}
