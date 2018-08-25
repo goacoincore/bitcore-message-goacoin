@@ -1,0 +1,1 @@
+# bitcore-message-goacoin
